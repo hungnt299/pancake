@@ -20,37 +20,29 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
-#app {
-  color: #2c3e50;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 html {
-  background-color: #191b1f;
-  line-height: 1.5;
-  font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Kanit", sans-serif;
+  font-style: normal;
 }
 
 body {
   margin: 0;
+  background-color: #08060b;
 }
 
-a {
-  color: rgba(255,255,255);
-  transition: color .2s ease-in-out;
-}
+.container {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-height: auto;
 
-a, p {
-  font-size: 16px;
-}
-
-h1 {
-  line-height: 2.5rem;
-}
-
-a:hover {
-  cursor: pointer;
-  opacity: 1 !important;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
 }
 </style>
