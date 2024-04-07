@@ -5,7 +5,7 @@
   <div class="footer">
     <a href="/">
       <div class="menu-block">
-        <img src="/trade.svg" width="22" height="22" alt="trade-icon" />
+        <img src="trade.svg" width="22" height="22" alt="trade-icon" />
         <div class="menu-text">
           Trade
         </div>
@@ -13,7 +13,7 @@
     </a>
     <a href="/">
       <div class="menu-block">
-        <img src="/buy.svg" width="22" height="22" alt="buy-icon" />
+        <img src="buy.svg" width="22" height="22" alt="buy-icon" />
         <div class="menu-text">
           Buy
         </div>
@@ -21,7 +21,7 @@
     </a>
     <a href="/">
       <div class="menu-block">
-        <img src="/earn.svg" width="22" height="22" alt="earn-icon" />
+        <img src="earn.svg" width="22" height="22" alt="earn-icon" />
         <div class="menu-text">
           Earn
         </div>
@@ -29,17 +29,17 @@
     </a>
     <a href="/">
       <div class="menu-block">
-        <img src="/nft.svg" width="22" height="22" alt="nft-icon" />
+        <img src="nft.svg" width="22" height="22" alt="nft-icon" />
         <div class="menu-text">
           NFT
         </div>
       </div>
     </a>
     <button class="menu-btn">
-      <img src="/ext.svg" width="22" height="22" alt="ext-icon" />
+      <img src="ext.svg" width="22" height="22" alt="ext-icon" />
     </button>
     <button class="menu-btn">
-      <img src="/rabbit-bottom.svg" width="22" height="22" alt="rabbit-bottom-icon" />
+      <img src="rabbit-bottom.svg" width="22" height="22" alt="rabbit-bottom-icon" />
       <span class="menu-text">Game</span>
     </button>
   </div>

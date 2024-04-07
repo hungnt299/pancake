@@ -32,7 +32,7 @@ onUnmounted(() => clearInterval(betTimer))
                     <div class="layout-left">
                       <div class="layout-left-top">
                         <div class="top-title">
-                          <img src="/title-icon-1.svg" width="20" height="20" alt="title-icon-1.svg" />
+                          <img src="title-icon-1.svg" width="20" height="20" alt="title-icon-1.svg" />
                           <div class="title-text">
                             PancakeSwap
                           </div>
@@ -47,13 +47,13 @@ onUnmounted(() => clearInterval(betTimer))
                         <a href="/" class="bottom-stake">
                           <div class="stake-container no-wrap">
                             Stake CAKE
-                            <img src="/stake-icon.svg" width="20" class="stake-icon" alt="stake-icon" />
+                            <img src="stake-icon.svg" width="20" class="stake-icon" alt="stake-icon" />
                           </div>
                         </a>
                         <a href="/" class="bottom-stake">
                           <div class="stake-container">
                             Learn More
-                            <img src="/explore-icon.svg" width="20" class="stake-icon" alt="explore-icon" />
+                            <img src="explore-icon.svg" width="20" class="stake-icon" alt="explore-icon" />
                           </div>
                         </a>
                       </div>
@@ -77,7 +77,7 @@ onUnmounted(() => clearInterval(betTimer))
                     <div class="layout-left">
                       <div class="layout-left-top">
                         <div class="top-title">
-                          <img src="/title-icon-1.svg" width="20" height="20" alt="title-icon-1.svg" />
+                          <img src="title-icon-1.svg" width="20" height="20" alt="title-icon-1.svg" />
                           <div class="title-text">
                             PancakeSwap
                           </div>
@@ -92,13 +92,13 @@ onUnmounted(() => clearInterval(betTimer))
                         <a href="/" class="bottom-stake-2">
                           <div class="stake-container-2 no-wrap">
                             Stake Now
-                            <img src="/arrow-right.svg" width="20" class="stake-icon" alt="stake-icon" />
+                            <img src="arrow-right.svg" width="20" class="stake-icon" alt="stake-icon" />
                           </div>
                         </a>
                         <a href="/" class="bottom-stake-2">
                           <div class="stake-container-2 no-wrap">
                             Learn More
-                            <img src="/explore-icon-2.svg" width="20" class="stake-icon" alt="explore-icon" />
+                            <img src="explore-icon-2.svg" width="20" class="stake-icon" alt="explore-icon" />
                           </div>
                         </a>
                       </div>
@@ -122,7 +122,7 @@ onUnmounted(() => clearInterval(betTimer))
                     <div class="layout-left">
                       <div class="layout-left-top">
                         <div class="top-title">
-                          <img src="/title-icon-1.svg" width="20" height="20" alt="title-icon-1.svg" />
+                          <img src="title-icon-1.svg" width="20" height="20" alt="title-icon-1.svg" />
                           <div class="title-text">
                             PancakeSwap
                           </div>
@@ -137,13 +137,13 @@ onUnmounted(() => clearInterval(betTimer))
                         <a href="/" class="bottom-stake-3">
                           <div class="stake-container-2 no-wrap">
                             Whitepaper
-                            <img src="/explore-icon-2.svg" width="20" class="stake-icon" alt="explore-icon" />
+                            <img src="explore-icon-2.svg" width="20" class="stake-icon" alt="explore-icon" />
                           </div>
                         </a>
                         <a href="/" class="bottom-stake-3-1">
                           <div class="stake-container-3 no-wrap">
                             Build
-                            <img src="/explore-icon.svg" width="20" class="stake-icon" alt="explore-icon" />
+                            <img src="explore-icon.svg" width="20" class="stake-icon" alt="explore-icon" />
                           </div>
                         </a>
                       </div>
@@ -191,7 +191,7 @@ onUnmounted(() => clearInterval(betTimer))
               </div>
             </div>
             <div class="body-image">
-              <img src="/mshk-lottie1.gif" alt="lottie-gif">
+              <img src="mshk-lottie1.gif" alt="lottie-gif">
             </div>
           </div>
         </div>

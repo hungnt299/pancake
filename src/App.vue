@@ -1,7 +1,7 @@
 <template>
     <div class="container">
       <HeaderLayout />
-      <router-view/>
+      <HomePage />
       <FooterLayout />
     </div>
 </template>
@@ -9,10 +9,12 @@
 <script>
 import HeaderLayout from "@/components/HeaderLayout.vue";
 import FooterLayout from "@/components/FooterLayout.vue";
+import HomePage from "@/pages/HomePage.vue";
 
 export default {
   name: 'App',
   components: {
+    HomePage,
     FooterLayout,
     HeaderLayout,
   }

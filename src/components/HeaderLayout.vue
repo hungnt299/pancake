@@ -4,17 +4,17 @@
 <template>
   <div class="header-layout">
     <div class="header">
-      <img src="/rabbit-icon.svg" width="32" height="32" alt="rabbit-icon" />
+      <img src="rabbit-icon.svg" width="32" height="32" alt="rabbit-icon" />
       <div class="header-right">
         <div class="header-action">
-          <img src="/language.svg" width="24" height="24" alt="language-icon" />
-          <img src="/setting.svg" width="24" height="24" alt="setting-icon" />
-          <img src="/ring.svg" width="24" height="24" alt="ring-icon" />
+          <img src="language.svg" width="24" height="24" alt="language-icon" />
+          <img src="setting.svg" width="24" height="24" alt="setting-icon" />
+          <img src="ring.svg" width="24" height="24" alt="ring-icon" />
         </div>
         <div class="header-network">
-          <img src="/network.png" width="32" height="32" alt="network-icon" />
+          <img src="network.png" width="32" height="32" alt="network-icon" />
           <div class="header-title">BNB</div>
-          <img src="/move-down.svg" width="24" height="24" alt="move-down-icon" />
+          <img src="move-down.svg" width="24" height="24" alt="move-down-icon" />
         </div>
         <div class="connect-btn">
           <div>Connect</div>
