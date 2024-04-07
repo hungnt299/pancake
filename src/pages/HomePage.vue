@@ -12,7 +12,6 @@ const betTimer = setInterval(() => {
   } else {
     swiperNumber.value = 1
   }
-
 }, 5000)
 
 onUnmounted(() => clearInterval(betTimer))
@@ -141,10 +140,10 @@ onUnmounted(() => clearInterval(betTimer))
                             <img src="/explore-icon-2.svg" width="20" class="stake-icon" alt="explore-icon" />
                           </div>
                         </a>
-                        <a href="/" class="bottom-stake-3">
-                          <div class="stake-container-2 no-wrap">
-                            Builder
-                            <img src="/explore-icon-2.svg" width="20" class="stake-icon" alt="explore-icon" />
+                        <a href="/" class="bottom-stake-3-1">
+                          <div class="stake-container-3 no-wrap">
+                            Build
+                            <img src="/explore-icon.svg" width="20" class="stake-icon" alt="explore-icon" />
                           </div>
                         </a>
                       </div>
@@ -178,7 +177,7 @@ onUnmounted(() => clearInterval(betTimer))
                 <div class="text-title--second">
                   Favorite
                 </div>
-                <br />
+                <br class="landing-br" />
                 <div class="text-title--first">
                   DEX
                 </div>
@@ -192,7 +191,7 @@ onUnmounted(() => clearInterval(betTimer))
               </div>
             </div>
             <div class="body-image">
-              <img src="/mshk-lottie.gif" width="375" alt="lottie-gif">
+              <img src="/mshk-lottie1.gif" alt="lottie-gif">
             </div>
           </div>
         </div>
@@ -345,8 +344,18 @@ onUnmounted(() => clearInterval(betTimer))
       display: flex;
       height: 100%;
       width: 100%;
+      justify-content: center;
       position: relative;
       margin-bottom: 24px;
+      img {
+        width: 375px;
+        height: 375px;
+        @media screen and (min-width: 576px) {
+          width: 500px;
+          height: 500px;
+          transform-origin: center center;
+        }
+      }
     }
   }
 
@@ -457,6 +466,10 @@ onUnmounted(() => clearInterval(betTimer))
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
+      max-width: 155px;
+      @media all and (min-width: 450px) {
+        min-width: unset;
+      }
     }
 
     .center-title {
@@ -486,6 +499,16 @@ onUnmounted(() => clearInterval(betTimer))
       color: white;
       font-size: 14px;
       line-height: 16px;
+      font-weight: 500;
+    }
+
+    .stake-container-3 {
+      display: flex;
+      align-items: center;
+      color: #000;
+      font-size: 14px;
+      line-height: 16px;
+      font-weight: 500;
     }
 
     .stake-icon {
@@ -616,6 +639,26 @@ onUnmounted(() => clearInterval(betTimer))
     color: #191326;
   }
 
+  .bottom-stake-3-1 {
+    height: 33px;
+    border-radius: 12px;
+    padding: 0px 12px;
+    position: relative;
+    align-items: center;
+    border: 0px;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    color: #191326;
+  }
+
   .image-right-slide-1 {
     background-image: url('/public/slide-1.png');
   }
@@ -700,6 +743,13 @@ onUnmounted(() => clearInterval(betTimer))
 
 .swiper-pagination-bullet-active {
   opacity: 1;
+}
+
+.landing-br {
+  display: block;
+  @media all and (min-width: 576px) {
+    display: none;
+  }
 }
 
 @keyframes gyagOf {

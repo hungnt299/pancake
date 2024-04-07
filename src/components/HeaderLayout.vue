@@ -13,6 +13,7 @@
         </div>
         <div class="header-network">
           <img src="/network.png" width="32" height="32" alt="network-icon" />
+          <div class="header-title">BNB</div>
           <img src="/move-down.svg" width="24" height="24" alt="move-down-icon" />
         </div>
         <div class="connect-btn">
@@ -73,6 +74,18 @@
     position: relative;
     &:hover {
       opacity: 0.65;
+    }
+
+    .header-title {
+      color: #f4eeff;
+      display: none;
+      font-weight: 600;
+
+      @media screen and (min-width: 576px) {
+        display: block;
+        margin-left: 8px;
+        margin-right: 4px;
+      }
     }
   }
 
